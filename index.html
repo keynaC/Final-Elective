@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>IT48C</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Keyna.css">
+<link rel="stylesheet" href="Rhealyn Jane.css">
+<link rel="stylesheet" href="click.css">
+
+
+</head>
+<body>
+<header class="header">
+        
+<div id="cursor"></div>
+<div id="cursor-border"></div>
+<input type="button" data-cursor="pointer">
+<a class="key">Keyna and Rhealyn Jane</a>
+<input type="button" data-cursor="pointer2">
+
+<header>
+        <nav>
+            <a href="#home" class="key" input type="button" data-cursor="pointer2">Home</a>
+            <a href="#about" class="key" input type="button" data-cursor="pointer2">About Me</a>
+            <a href="#projects" class="key" input type="button" data-cursor="pointer2">Projects</a>
+            <a href="#resume" class="key" input type="button" data-cursor="pointer2">Resume</a>
+            <a href="#contact" class="key" input type="button" data-cursor="pointer2">Contact</a>
+        </nav>
+</header>
+
+   <div>
+<section id="home">
+    <p class="intro-id">Hello, we are</p>
+    <h1 class="show-animate animate">Keyna Gogo and Rhealyn Jane Javison </h1>
+    <p class ="show-animate">Web designer in Korea</p>
+    <a class="Tall">IT23C Elective 1 (Web System and Technologies)</a>
+</div>
+</section>
+<section id="about">
+    <h1 class="show-animate animate"> About Me </h1>
+
+    <h2 class="label">keyn</h2>
+    <p>Hey, my name is Keyna Gogo and They call me keyn. I’m a graphic designer, a UX/UI designer & front-end web developer from Korean. I’m also passionate about k- music and make portraits and universes around what I listen to and I’m always curious to learn more when it comes to new technologies and creative coding.</p>
+    
+    <br><br>
+    <p>Some interesting information about me...</p>
+
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Reading</li>
+        <li>Singing</li>
+        <li>Dancing</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h1 class="show-animate animate"> Projects </h1>
+    <button class="project-button" data-project="project1">Project 1</button>
+    <button class="project-button" data-project="project2">Project 2</button>
+    <button class="project-button" data-project="project3">Project 3</button>
+
+    <div class="project" id="project">Project 1 Details</div>
+    <div class="project" id="project">Project 2 Details</div>
+    <div class="project" id="projects">Project 3 Details</div>
+</section>
+
+<section id="resume">
+    <h1 class="show-animate animate">Resume </h1>
+    <label for='una'>Rhealyn Jane Javison</label>
+<input id='una' type='checkbox' />
+<div class="tap1">
+
+<div class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    
+ <div class="experience">
+    <h2>Experience</h2>
+        <h2>Company Name</h2>
+        <p>Position: Web Developer</p>
+        <p>Dates: November 22 - Present</p>
+</div>
+</div>
+ </section>
+<!--- <section id="resume">
+<label for='duha'>Rhealyn Jane Javison</label>
+<input id='duha' type='checkbox' />
+<div class="tap2">
+</div> --->
+
+<section id="contact">
+    <h1 class="show-animate animate">Contact </h1>
+    <form name="myForm" action="/submit_contact" onsubmit="return validateForm()" method="post"> Name: <input type="text" name="fname" required>
+<br><br> Email: <input type="email" name="email" required><br><br> Phone: <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<br><br> Message: <textarea name="message" required></textarea>
+<br><br><input type="submit" value="Submit"> </form>
+</section>
+ 
+    
+<script src="script.js"></script>
+       
+     <footer>
+		      <p>&copy; 2023, Northern Bukidnon State College. All rights reserved.</p>
+            </footer>
+</body>
+
+</html>
